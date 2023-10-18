@@ -36,31 +36,57 @@ INSERT INTO animais VALUES (24,'Rufus','2014-04-05',19.7,'branco');
 INSERT INTO animais VALUES (25,'Rex','2021-08-19',19.7,'branco');
 ```
 2-Selecione todos os animais:
+```
 /*select * from animais;*/
+```
 3-Selecione todos os animais que pesam menos que 13.1:
+```
 /*select * from animais where peso < 13.1;*/
+```
 4-Selecione todos nasceram entre fevereiro e dezembro de 2015:
+```
 /*select * from animais where nasc between '2015-01-01' and '2015-12-31';*/
+```
 5-Selecione todos os animais brancos que pesam menos que 15.0:;
+```
 /*select * from animais where cor = 'branco' and peso < 15.0;*/
+```
 6-Selecione nome, cor e peso de todos cujo nome comece com ’B’:
+```
 /*select nome,cor,peso from animais where nome like 'B%';*/
+```
 7-Selecione nome, cor e peso de todos com cor vermelha, amarela, marrom e laranja:
+```
 /*select nome,cor,peso from animais where cor in ('vermelha','marrom','laranja','amarela');*/
+```
 8-Selecione nome, cor, data de nascimento e peso de todos ordenados pelos mais jovens:
+```
 /*select nome,cor,nasc,peso from animais order by nasc desc;*/
+```
 9-Selecione todos os animais cujo nome comece com 'C' e não sejam brancos:
+```
 /*select * from animais where nome like 'C%' and cor != 'branco';*/
+```
 10-Selecione todos os animais cujo nome contenha 'ba':
+```
 /*select * from animais where nome like 'ba%';*/
+```
 11-Selecione todos os animais com peso entre 13.0 à 15.0:
+```
 /*select * from animais where peso between 13.0 and 15.0;*/
+```
 12-Selecione todos os animais que o peso não seja maior que 30, com cor amarelo ou roxo e nascidos depois de 2012:
+```
 /*select * from animais where peso < 30.0 and cor like 'amarelo' or cor like 'roxo' and nasc >'2012-01-01';*/
+```
 13-(Desafio) Selecione todos os capricornianos:
+```
 /*select * from animais where (month(nasc) = 12 and day(nasc) >= 22) or (month(nasc) = 1 and day(nasc) <= 19);*/
+```
 14-(Desafio) Selecione todos os animais com nome formado por mais de uma palavra:
+```
 /*select * from animais where locate(' ',nome) > 1;*/
+```
 
 ## ETAPA 2:
 
