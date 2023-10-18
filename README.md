@@ -3,8 +3,8 @@
 Atividades realizadas na materia Banco de Dados.
 Realizando a criação de banco de dados e alguns comandos.
 ## ETAPA 1:
-/*1-Crie a tabela animais e insira todos os valores disponíveis:*/;
-
+1-Crie a tabela animais e insira todos os valores disponíveis:
+```
 CREATE TABLE animais (
 id int,
 nome varchar(50),
@@ -34,7 +34,7 @@ INSERT INTO animais VALUES (22,'Muttley','2011-02-03',14.3,'laranja');
 INsERT INTO animais VALUES (23,'Scooby','2012-01-02',19.9,'marrom');
 INSERT INTO animais VALUES (24,'Rufus','2014-04-05',19.7,'branco');
 INSERT INTO animais VALUES (25,'Rex','2021-08-19',19.7,'branco');
-
+```
 2-Selecione todos os animais:
 /*select * from animais;*/
 3-Selecione todos os animais que pesam menos que 13.1:
