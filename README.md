@@ -178,7 +178,7 @@ create table filmes (
     foreign key(categorias_id) references categorias(id_categorias)
 );*/
 ```
-3-2Faça a modelagem relacional, DER.
+3-2Faça a modelagem relacional, DER:
 ![Etapa 3-2](https://github.com/Ig0rFA/BD-ANIMAIS-OUTROS/blob/main/BD-ANIMAIS-OUTROS/DER-FILMES-CATEGORIAS.png)
 3-3Insira pelo menos 8 Filmes e 3 Categorias:
 ```
