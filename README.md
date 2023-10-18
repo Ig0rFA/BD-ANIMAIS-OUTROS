@@ -5,13 +5,13 @@ Realizando a criação de banco de dados e alguns comandos.
 ## ETAPA 1:
 1 -Crie a tabela animais e insira todos os valores disponíveis:
 
-2-Selecione todos os animais
+2-Selecione todos os animais:
 /* asd */
 3-Selecione todos os animais que pesam menos que 13.1:
 /* asd */
 4-Selecione todos nasceram entre fevereiro e dezembro de 2015:
 /* asd */
-5-Selecione todos os animais brancos que pesam menos que 15.0:
+5-Selecione todos os animais brancos que pesam menos que 15.0:;
 /* asd */
 6-Selecione nome, cor e peso de todos cujo nome comece com ’B’:
 /* asd */
