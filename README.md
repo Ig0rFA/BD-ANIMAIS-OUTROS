@@ -3,7 +3,7 @@
 Atividades realizadas na materia Banco de Dados.
 Realizando a criação de banco de dados e alguns comandos.
 ## ETAPA 1:
-/*1-Crie a tabela animais e insira todos os valores disponíveis:*/
+/*1-Crie a tabela animais e insira todos os valores disponíveis:*/;
 
 CREATE TABLE animais (
 id int,
