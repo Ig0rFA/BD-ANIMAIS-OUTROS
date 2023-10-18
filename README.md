@@ -126,21 +126,73 @@ insert into animais values (08,'Zeca Urubu', date'2023-08-16', 9.0,2);*/*/
 ```
 2-Crie um banco de dados para registrar dados de Produtos e Marcas. Um produto deve ter nome, preço de custo, preço de venda, data de validade e marca. Uma marca deve ter, nome, site oficial e telefone:
 ```
-/* asd */
+/*create table marca (
+	id_marca int (100) primary key auto_increment not null,
+	site_oficial varchar(100) not null,
+    telefone int
+);
+
+create table produto (
+	id_produto int (100) primary key auto_increment not null,
+	nome varchar(100) not null,
+    data_validade date not null,
+    preco_custo decimal(9.2) not null,
+    preco_venda decimal(9.2) not null,
+    marca_id int (100),
+    foreign key(marca_id) references marca(id_marca)
+);
+*/
 ```
 2-2Faça a modelagem relacional, DER:
 ![Etapa 2-2](https://github.com/Ig0rFA/BD-ANIMAIS-OUTROS/blob/main/BD-ANIMAIS-OUTROS/DER-PRODUTO-MARCA.png)
 2-3Insira pelo menos 8 Produtos e 3 Marcas:
 ```
-/* asd */
+/*insert into marca values (1,'nestlepepsico.com.br',000111222);
+insert into marca values (2,'heinzpepsico.com.br',333444555);
+insert into marca values (3,'pepsico.com.br',666777888);
+
+insert into produto values (01,'Chocolate', date'2024-01-02', 15.0,30.0,1);
+insert into produto values (02,'Cacau', date'2029-02-04', 16.0,32.0,1);
+insert into produto values (03,'Sucrilhos', date'2028-03-06', 19.0,38.0,1);
+insert into produto values (04,'Molho de Tomate', date'2027-04-08', 30.0,60.0,1);
+insert into produto values (05,'Cerveja', date'2026-05-10', 2.0,4.0,3);
+insert into produto values (06,'Maionese', date'2025-06-12', 3.0,6.0,3);
+insert into produto values (07,'Doritos', date'2024-07-14', 4.0,8.0,2);
+insert into produto values (08,'Toddy', date'2023-08-16', 9.0,18.0,2);
+*/
 ```
 3-Crie um banco de dados para registrar dados de Filmes e Categorias. Um filme tem seu título, sinopse, estudio e categoria. Uma categoria deve ter nome e público alvo:
 ```
-/* asd */
+/*create table categorias (
+	id_categorias int (100) primary key auto_increment not null,
+    categoria_nome varchar(50) not null,
+	publico_alvo varchar(50) not null
+);
+
+create table filmes (
+	id_produto int (100) primary key auto_increment not null,
+	titulo varchar(100) not null,
+    sinopse varchar(100) not null,
+    estudio varchar(100) not null,
+    categorias_id int (100),
+    foreign key(categorias_id) references categorias(id_categorias)
+);*/
 ```
 3-2Faça a modelagem relacional, DER.
 ![Etapa 3-2](https://github.com/Ig0rFA/BD-ANIMAIS-OUTROS/blob/main/BD-ANIMAIS-OUTROS/DER-FILMES-CATEGORIAS.png)
 3-3Insira pelo menos 8 Filmes e 3 Categorias:
 ```
-/* asd */
+/*insert into categorias values (1,'comedia','adolecente');
+insert into categorias values (2,'terror','adulto');
+insert into categorias values (3,'romance','idoso');
+
+insert into filmes values (01,'Gente Grande','amigos do ensino fundametal','lasvegas.estudios',1);
+insert into filmes values (02,'As branquelas','homens se passam por modelos','lasvegas.estudios',1);
+insert into filmes values (03,'Minha mae e uma peca','historia da dona herminia','brasil.estudios',1);
+insert into filmes values (04,'Ate que amorte nos separe','ganhador na loteria perde tudo','lasvegas.estudios',1);
+insert into filmes values (05,'A freira','se passa em um orfanato','losangeles.estudios',2);
+insert into filmes values (06,'It','palhaco assasino','losangeles.estudios',2);
+insert into filmes values (07,'Como eu era antes de voce','romance terminal','losangeles.estudios',3);
+insert into filmes values (08,'A barraca do beijo','encontro na barraca do beijo','losangeles.estudios',3);
+*/
 ```
