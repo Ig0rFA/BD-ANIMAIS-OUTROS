@@ -37,18 +37,18 @@ Realizando a criação de banco de dados e alguns comandos.
 1- Crie um banco de dados para armazenar dados de Animais e Espécies. Um animal tem seu nome, data_nasc e peso. Uma espécie tem um nome e uma descrição:
 /* asd */
 1-2Faça a modelagem relacional, DER:
-![Etapa 1-2]()
+![Etapa 1-2](https://github.com/Ig0rFA/BD-ANIMAIS-OUTROS/blob/main/BD-ANIMAIS-OUTROS/DER-ANIMAIS-ESPECIES.png)
 1-3Insira pelo menos 8 animais e 3 espécies:
 /* asd */
 2-Crie um banco de dados para registrar dados de Produtos e Marcas. Um produto deve ter nome, preço de custo, preço de venda, data de validade e marca. Uma marca deve ter, nome, site oficial e telefone:
 /* asd */
 2-2Faça a modelagem relacional, DER:
-![Etapa 2-2]()
+![Etapa 2-2](https://github.com/Ig0rFA/BD-ANIMAIS-OUTROS/blob/main/BD-ANIMAIS-OUTROS/DER-PRODUTO-MARCA.png)
 2-3Insira pelo menos 8 Produtos e 3 Marcas:
 /* asd */
 3-Crie um banco de dados para registrar dados de Filmes e Categorias. Um filme tem seu título, sinopse, estudio e categoria. Uma categoria deve ter nome e público alvo:
 /* asd */
 3-2Faça a modelagem relacional, DER.
-![Etapa 3-2]()
+![Etapa 3-2](https://github.com/Ig0rFA/BD-ANIMAIS-OUTROS/blob/main/BD-ANIMAIS-OUTROS/DER-FILMES-CATEGORIAS.png)
 3-3Insira pelo menos 8 Filmes e 3 Categorias:
 /* asd */
